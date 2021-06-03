@@ -21,6 +21,7 @@ public class Car implements Runnable {
         return speed;
     }
 
+
     public Car(Race race, int speed,  CyclicBarrier cb, CountDownLatch cdl, AtomicInteger atomicCount) {
         this.race = race;
         this.speed = speed;

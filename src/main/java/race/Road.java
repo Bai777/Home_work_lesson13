@@ -1,6 +1,5 @@
 package race;
 
-
 public class Road extends Stage{
     public Road(int length) {
         this.length = length;
@@ -16,7 +15,6 @@ public class Road extends Stage{
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
     }
 }
 
