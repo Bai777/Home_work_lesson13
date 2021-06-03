@@ -18,7 +18,6 @@ public class MainClass {
 
         CountDownLatch cdl = new CountDownLatch(CARS_COUNT);
 
-
         Race race = new Race(new Road(60), new Tunnel(), new Road(40));
         Car[] cars = new Car[CARS_COUNT];
 
